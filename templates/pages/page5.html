@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+  <meta name="viewport" content="width=device=width,initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/page5.css' %}"/>
+  <title>آل إمام للطباعة والنشر والإعلان</title>
+</head>
+<body>
+
+<div class="container">
+  <form class="form" id="form" method="post">
+    {% csrf_token %}
+    
+    <h2>المدفوعات</h2>
+    <div class="form-control">
+      <label for="cash-out">المال المدفوع</label>
+      <input type="number" id="cash-out" placeholder="أدخل المبلغ" step="any" name="cash_out">
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="notes">الملاحظات</label>
+      <input type="textarea" id="notes" placeholder="أدخل ملاحظتك" name="notes"> 
+      <small>Error message</small>
+    </div>
+    <button type="submit" class="btn btn-danger">الدفع</button>
+  </form>
+</div>
+  
+  <span2>  
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="#">آل إمام للطباعة والنشر والإعلان</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="{% url 'Al emam' %}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'page1' %}">Page1</a></li>
+            </ul>
+    </div>
+</nav>
+  </span2>
+  
+{% if success %}
+<script>
+    setTimeout(function() {
+        window.location.href = "{% url 'page2' %}"; // توجيه إلى الصفحة الثانية بعد ثانية واحدة
+    }, 0000);
+</script>
+{% endif %}  
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>       
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>   
+<script src="{% static 'js/page5.js' %}"></script>    
+</body>
+</html>
+

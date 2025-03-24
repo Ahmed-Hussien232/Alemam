@@ -1,0 +1,200 @@
+@media screen and (min-width:1025px){
+  h1{
+    color: red; 
+    text-align: center;
+    direction: rtl;
+    margin: 10px;
+    padding-left: 100px;
+    font-weight: 900;
+  }
+
+  h2{
+    color: purple;
+    text-align: right;
+    direction: rtl;
+    margin: 10px;
+    padding-left: 200px; 
+  }
+  body{
+    color:black;
+    text-align: right;
+    direction: rtl;
+    padding-top: 50px;
+  }
+
+  p2{
+    color: black;
+    text-align: right;
+    direction: ltr;
+  }
+  span{
+    color: brown;
+    font-family: Times New Roman;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;  
+    text-align: right;  
+  }
+
+  span2{
+    direction: ltr;
+  }
+  
+  #logo{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    display: block;         /*be under each other but inline be beside each other*/
+    position: absolute;     /*static - relative - absolute - fixed*/
+    top: 20px;
+    left: 0px;
+  }
+
+.first{
+  width: 50%;
+  float: right;
+}
+  
+.second{
+  width: 50%;
+  float: left;
+}  
+
+.third{
+  width: 50%;
+  float: right;
+}
+  
+.fourth{
+  color: white;
+  background-color: brown;
+  padding:13px 42px;
+  border-radius: 20px;
+  text-decoration: none;
+}  
+  
+.btn{
+  color: Purple;
+}
+  
+  /*body{
+    background-image: url("panar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+  
+.container{
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  display: inline-block;
+}
+  
+.navbar-custom{
+  background-color:  brown;
+}  
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link{
+  color: white;
+}    
+}
+
+@media screen and (max-width: 1024px) {  
+    h1 {
+        color: red;
+        text-align: center;
+        direction: rtl;
+        margin: 5px;
+        padding-left: 200px;
+        font-weight: 900;
+        line-height: 50px;
+    }
+
+    h2 {
+        color: purple;
+        text-align: right;
+        direction: rtl;
+        margin: 5px;
+        padding-left: 100px;
+    }
+
+    body {
+      color: black;
+      text-align: right;
+      direction: rtl;
+      padding-top: 50px;
+    }
+
+    p2 {
+        color: black;
+        text-align: right;
+        direction: ltr;
+    }
+
+    span {
+        color: brown;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 600; /* تقليل الوزن ليكون مناسبًا */
+        font-style: italic;
+        text-align: right;
+    }
+
+    #logo {
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+    }
+  
+.first{
+  width: 50%;
+  float: right;
+}
+  
+.second{
+  width: 50%;
+  float: left;
+}  
+
+.third{
+  width: 50%;
+  float: right;
+}
+  
+.fourth{
+  color: white;
+  background-color: brown;
+  padding:13px 42px;
+  border-radius: 20px;
+  text-decoration: none;
+}  
+  
+.btn{
+  color: purple;
+  background-color: white;
+  
+  padding:5px 5px;
+  border-radius: 70px;
+  text-decoration: none;
+  line-height: 50px;
+}  
+  
+.container{
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  display: inline-block;
+}  
+  
+.navbar-custom{
+  background-color:  brown;
+}  
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link{
+  color: white;
+}
+}
