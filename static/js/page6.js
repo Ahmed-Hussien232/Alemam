@@ -35,8 +35,12 @@ function checkNotes(){
 
 
 form.addEventListener("submit", function(e){
-  e.preventDefault();
   checkCashin();
   checkNotes();
+  if (Cashin.value === "" || Notes.value === ""){
+    e.preventDefault();
+  } else{
+    form.submit();
+  }
 })
 

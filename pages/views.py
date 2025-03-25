@@ -21,7 +21,7 @@ def Page1(request):
         data = Login(username=username)
         data.save()
 
-        if username == "Al_emam" and password == "01061115574" and password2 == password:
+        if username == "admin" and password == "admin" and password2 == password:
             request.session.clear()  # مسح الجلسة السابقة
             request.session['authenticated'] = True
             return redirect("page2")

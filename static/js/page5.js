@@ -35,6 +35,7 @@ function checkNotes(){
 
 
 form.addEventListener("submit", function(e){
+  
   checkCashout();
   checkNotes();
   if (Cashout.value === "" || Notes.value === ""){
