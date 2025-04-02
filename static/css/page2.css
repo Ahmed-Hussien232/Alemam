@@ -10,49 +10,48 @@
 
  
 #logo{
-  height: 250px;
-  width: 250px;
-  margin: 20px;
+  width: 20vw;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 20px;
-  left: 500px;
+  top: 15%;
+  left: 38%;
 }
 
 #btn1{
-  padding: 50px;
-  margin: 20px;
+  padding: 3rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 400px;
-  right: 350px;
+  top: 25rem;
+  right: 22rem;
 }  
 
 #btn2{
-  padding: 50px;
-  margin: 20px;
+  padding: 3rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 400px;
-  left: 350px;
+  top: 25rem;
+  left: 22rem;
 } 
 
 #btn3{
-  padding: 50px;
-  margin: 20px;
+  padding: 3rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 50px;
-  right: 20px;
+  top: 3rem;
+  right: 1.25rem;
 } 
 
 #btn4{
-  padding: 50px;
-  margin: 20px;
+  padding: 3rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 50px;
-  left: 20px;
+  top: 3rem;
+  left: 1.25rem;
 } 
   
 }
@@ -68,50 +67,49 @@
 }
 
 #logo{
-  height: 250px;
-  width: 250px;
-  margin: 20px;
+  width: 35vw;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 20px;
-  left: 250px;
+  top: 25%;
+  left: 30%;
 }
 
 
 #btn1{
-  padding: 50px;
-  margin: 20px;
+  padding: 2.5rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 400px;
-  right: 150px;
+  top: 25rem;
+  right: 2rem;
 }  
 
 #btn2{
-  padding: 50px;
-  margin: 20px;
+  padding: 2.5rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 400px;
-  left: 150px;
+  top: 25rem;
+  left: 2rem;
 } 
 
 #btn3{
-  padding: 50px;
-  margin: 20px;
+  padding: 2.5rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 50px;
-  right: 20px;
+  top: 3rem;
+  right: 1.25rem;
 } 
 
 #btn4{
-  padding: 50px;
-  margin: 20px;
+  padding: 2.5rem;
+  margin: 1.25rem;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 50px;
-  left: 20px;
+  top: 3rem;
+  left: 1.25rem;
 } 
 
 }

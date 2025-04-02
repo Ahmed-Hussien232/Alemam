@@ -2,21 +2,20 @@
 
 .navbar-custom{
   background-color:  brown;
-}  
+}
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link{
   color: white;
 }
 
- 
+
 #logo{
-  height: 250px;
-  width: 250px;
+  width: 20vw;
   margin: 20px;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 20px;
-  left: 500px;
+  top: 5%;
+  left: 38%;
 }
 
 .container {
@@ -85,20 +84,19 @@
 
 .navbar-custom{
   background-color:  brown;
-}  
+}
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link{
   color: white;
 }
 
 #logo{
-  height: 250px;
-  width: 250px;
-  margin: 20px;
+  width: 35vw;
+  margin: 1.25ren;
   display: block;         /*be under each other but inline be beside each other*/
   position: absolute;     /*static - relative - absolute - fixed*/
-  top: 20px;
-  left: 270px;
+  top: 10%;
+  left: 30%;
 }
 /* ضبط الحاوية الرئيسية */
 .container {
